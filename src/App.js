@@ -5,9 +5,9 @@ import todosData from "./todosData";
 
 class App extends React.Component {
   constructor(){
-      super();
+      super()
       this.state = {
-        todos: todoItems
+        todos: todosData
       }
   }
   render(){
